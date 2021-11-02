@@ -1,0 +1,173 @@
+body{
+    background: url(./imgages/IehB7.png);
+    padding: -1.0em;
+    margin: -1.0em;
+    min-height: 100%;
+}
+h1{
+    color: darkturquoise;
+    font-size: 2.0em;
+}
+h2{
+    color: midnightblue;
+    font-size: 1em;
+}
+p{
+    color: snow;
+    font-size: 0.5em;
+}
+ol{
+    font-size: 1.0em;
+
+}
+ol li{
+    font-size: 1.0em;
+    margin: 1.0em;
+    padding: 1.0em;
+}
+.wrapper{
+    margin: 1.0em;
+    max-width: 2000px;
+    padding: 3.0em;  
+    flex: 1;  
+}
+.whole{
+    position: relative;
+    min-height: 100%;
+}
+header{
+    background: url(imgages/100-Greatest-Funko-Pop-Figures.jpg) center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5em;
+    margin: -1.0em -1.0em 1.0em -1.0em;
+}
+header h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 6.0em;
+    margin: 0;
+    text-shadow: 3px 3px 0 midnightblue;
+}
+header h2{
+    font-size: 3.0em;
+    color:darkslategrey;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    margin: -0.5em 0 0 0;
+    text-shadow:2px 2px 0  whitesmoke;
+}
+nav{
+    color: whitesmoke;
+    font-size: 1.0em;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    margin: 0.5em;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.0em;
+    font-weight: 700;
+    margin: 0;
+}
+nav li a, nav li a:visited{
+    text-decoration: none;
+    color:darkmagenta;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover{
+    color: midnightblue;
+    background-color: rgba(252, 251, 243, 0.75);
+    border-radius: 5px;
+}
+nav#socialMenu{
+    float: left;
+    margin: -4.0em 0 0 0;
+    padding: 0.5em;
+    background-color: midnightblue;
+    height: 1.5em;
+    border-radius: 5px;
+}
+nav#socialMenu li{
+    vertical-align: middle;
+}
+nav#socialMenu ul li.topNav a, nav#socialMenu ul li.topNav a:visited{
+    color: whitesmoke;
+}
+nav#socialMenu ul li.topNav::before, nav#socialMenu ul li input#search::before{
+    content: "| ";
+    color: #FCFBE6;
+}
+section#sidebar {
+    width:  400px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em ;
+    padding: 2.0em;
+    border-right: red solid 5px;
+    border-left: red solid 5px;
+    border-radius: 2em;
+}
+section#popList{
+    position: absolute;
+    background-color: steelblue;
+    margin: -2.0em 2.0em 2.0em 2.0em;
+    padding: 2.0em 2.0em 2.0em 2.0em;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: turquoise 5px 5px 5px;
+}
+section div.pops{    
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 2.0em 4.0em 5.0em 2.5em;
+    padding: 0.5em;
+    background-color: whitesmoke;
+    border: darkcyan solid 2px;
+    border-radius: 5px;
+}
+footer{
+    
+    background-color: deeppink;
+    height: 5px;
+    font-size: 2.0em;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2.0em;
+    width: 100%;    
+    margin-top: 55em;
+    position: absolute;
+}
+footer ul#footerMenu{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.5em;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 0.5em 0 0;
+    margin: 0;
+}
+button{
+    color:darkmagenta;
+    background-color: slategray;
+    display: inline-block;
+    margin: .5em 0.5em 0.5em 0.5em;
+    padding: 0.2em 0.5em;
+    border: 1px solid darkmagenta;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #fbf3db;
+    border: 1px solid darkmagenta;
+}
